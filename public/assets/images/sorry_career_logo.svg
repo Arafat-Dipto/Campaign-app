@@ -1,0 +1,11 @@
+<svg width="500" height="500" viewBox="0 0 723 695" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M512 120V23C512 20.2386 509.761 18 507 18H22.5C19.7386 18 17.5 20.2386 17.5 23V602.5C17.5 605.261 19.7386 607.5 22.5 607.5H507C509.761 607.5 512 605.261 512 602.5V560.5" stroke="#009bbc" stroke-width="35"/>
+<path d="M574.5 624.5V672.5C574.5 675.261 572.261 677.5 569.5 677.5H85C82.2386 677.5 80 675.261 80 672.5V652" stroke="#009bbc" stroke-width="35"/>
+<path d="M549.5 82.5H571C573.761 82.5 576 84.7386 576 87.5V196.5" stroke="#009bbc" stroke-width="35"/>
+<path d="M95.5 131H252.5" stroke="#009bbc" stroke-width="25" stroke-linecap="round"/>
+<path d="M91 255H166.5" stroke="#009bbc" stroke-width="25" stroke-linecap="round"/>
+<path d="M94 372H166.5" stroke="#009bbc" stroke-width="25" stroke-linecap="round"/>
+<path d="M89.5 496H250" stroke="#009bbc" stroke-width="25" stroke-linecap="round"/>
+<path d="M636.707 634.143L493 498L558.5 428L704.215 563.971C714.506 573.574 714.845 589.775 704.965 599.799L671.705 633.543C662.149 643.24 646.59 643.506 636.707 634.143Z" fill="#009bbc"/>
+<circle cx="386.5" cy="313.5" r="162.5" stroke="#009bbc" stroke-width="35"/>
+</svg>

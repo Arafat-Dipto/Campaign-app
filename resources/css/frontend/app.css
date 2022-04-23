@@ -1,0 +1,104 @@
+/* Reset */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+/* Components */
+@import "buttons";
+@import "form";
+@import "theme";
+@import "nprogress";
+
+/* Utilities */
+@import "tailwindcss/utilities";
+
+@import "react-datepicker/dist/react-datepicker.css";
+
+@import "react-date-range/dist/styles.css";
+@import "react-date-range/dist/theme/default.css";
+
+/* Works on Firefox */
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(15 17 55, var(--tw-bg-opacity)) transparent;
+} */
+
+/* Works on Chrome, Edge, and Safari */
+/* *::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(15 17 55, var(--tw-bg-opacity));
+    border-radius: 20px;
+    border: 3px solid transparent;
+} */
+
+*::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	background-color: #f5f5f5;
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+	background-color: #f5f5f5;
+}
+
+*::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: #555;
+}
+
+/* Modal */
+
+.modal__backdrop {
+	background: rgba(0, 0, 0, 0.65);
+	bottom: 0;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 999;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	/* @include responsive-size(tab) {
+		background: #fff !important;
+	} */
+}
+
+.modal__container {
+	background: #fff;
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	/* min-width: 650px;
+	max-width: 800px; */
+}
+
+.modal__title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.modal__closeButton {
+	position: absolute;
+	right: 20px;
+	top: 15px;
+	appearance: none;
+	outline: none;
+	appearance: none;
+	background: none;
+	border: 0;
+}
