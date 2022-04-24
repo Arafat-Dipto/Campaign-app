@@ -52,7 +52,7 @@ class User extends Authenticatable implements MustVerifyEmail, JWTSubject
 
 	public function isDemoUser()
 	{
-		return $this->email === 'nagib@mavengers.com.bd';
+		return $this->email === 'arafat@dev.com.bd';
 	}
 
 	public function scopeFilter($query, array $filters)
